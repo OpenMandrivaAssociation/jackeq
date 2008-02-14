@@ -11,6 +11,7 @@ Source:		http://prdownloads.sourceforge.net/jackeq/jackEQ-%{version}.tar.bz2
 URL:		http://jackeq.sourceforge.net/
 License:	GPL
 Group:		Sound
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	pkgconfig 
 BuildRequires:  libjack-devel 
 BuildRequires:  libxml2-devel 
