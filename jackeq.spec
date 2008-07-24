@@ -1,6 +1,6 @@
 %define name	jackeq
 %define version	0.4.1
-%define release %mkrel 4
+%define release %mkrel 6
 
 Name: 	 	%{name}
 Summary: 	Live EQ console for JACK audio applications
