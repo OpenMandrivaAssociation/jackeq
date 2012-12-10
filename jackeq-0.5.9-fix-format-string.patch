@@ -1,0 +1,12 @@
+diff -rupN jackEQ-0.5.9.old/src/main.c jackEQ-0.5.9/src/main.c
+--- jackEQ-0.5.9.old/src/main.c	2010-03-12 09:47:20.000000000 +0100
++++ jackEQ-0.5.9/src/main.c	2012-11-02 17:12:19.782366119 +0100
+@@ -265,7 +265,7 @@ void getSettings()
+   if (!g_key_file_load_from_file (keyfile, filepath, flags, &error))
+   {
+     return;
+-    g_error (error->message);
++    g_error ("%s", error->message);
+   }
+   
+   //gdouble c1 = g_key_file_get_double (keyfile, "group1", "c1", NULL);
