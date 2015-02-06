@@ -3,7 +3,7 @@
 Name:		jackeq
 Summary:		Live EQ console for JACK audio applications
 Version:		0.5.9
-Release:		1
+Release:		2
 URL:		http://djcj.org/%{name}/
 License:		GPLv2+
 Group:		Sound
