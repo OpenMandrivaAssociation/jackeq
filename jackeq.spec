@@ -9,6 +9,11 @@ License:		GPLv2+
 Group:		Sound
 Source0:		http://djcj.org/%{name}/code/%{oname}-%{version}.tar.bz2
 Patch0:		jackeq-0.5.9-fix-format-string.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig
 BuildRequires:	jackit-devel >= 0.50.0
 BuildRequires:	libxml2-devel >= 2.0
